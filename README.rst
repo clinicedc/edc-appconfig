@@ -12,6 +12,8 @@ Last app in ``INSTALLED_APPS`` for ``clinicedc`` projects::
         "edc_appconfig.apps.AppConfig"
         ]
 
+
+
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-appconfig.svg
     :target: https://pypi.python.org/pypi/edc-appconfig
 
