@@ -1,4 +1,4 @@
-|pypi| |actions| |codecov| |downloads|
+|pypi| |actions| |codecov| |downloads| |maintainability| |black|
 
 edc-appconfig
 -------------
@@ -25,3 +25,11 @@ Last app in ``INSTALLED_APPS`` for ``clinicedc`` projects::
 
 .. |downloads| image:: https://pepy.tech/badge/edc-appconfig
    :target: https://pepy.tech/project/edc-appconfig
+
+.. |maintainability| image:: https://api.codeclimate.com/v1/badges/434041d6c2f424ce5fd7/maintainability
+   :target: https://codeclimate.com/github/clinicedc/edc-appconfig/maintainability
+   :alt: Maintainability
+
+.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/ambv/black
+   :alt: Code Style
