@@ -9,7 +9,7 @@ namespace = false
 
 [project]
 name = "edc-appconfig"
-version = "1.0.2"
+version = "1.0.3"
 description = "Custom AppConfig for main app of clinicedc/edc projects"
 readme = {file = "README.rst", content-type = "text/x-rst"}
 authors = [
