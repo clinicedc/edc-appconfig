@@ -5,7 +5,7 @@ from pathlib import Path
 from edc_test_settings.default_test_settings import DefaultTestSettings
 
 app_name = "edc_appconfig"
-base_dir = Path(__file__).absolute().parent.parent.parent
+base_dir = Path(__file__).absolute().parent.parent
 
 project_settings = DefaultTestSettings(
     calling_file=__file__,
@@ -22,7 +22,7 @@ project_settings = DefaultTestSettings(
     ],
     BASE_DIR=base_dir,
     APP_NAME=app_name,
-    ETC_DIR=str(base_dir / app_name / "tests" / "etc"),
+    ETC_DIR=str(base_dir / "tests" / "etc"),
     INSTALLED_APPS=[
         "django.contrib.admin",
         "django.contrib.auth",
